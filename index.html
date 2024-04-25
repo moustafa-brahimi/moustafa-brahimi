@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Design for رواء</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --border-color: #F0EDFF;
+            --gradient-start: #9181f4;
+            --gradient-end: #5038ed;
+            --text-darkest: #000;
+            --text-dark: #1C1C1C;
+            --text-grey: #525252;
+            --white: #ffffff;
+            --input-bg: rgba(240, 237, 255, 0.80);
+            --shadow-color: rgba(0,0,0,0.16);
+        
+        }
+
+
+        body {
+            font-family: poppins;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            overflow: hidden;
+            width: 100%;
+            height: 100vh;
+        }
+
+        .large-space {
+            margin-bottom: 24px;
+        }
+
+        .medium-space {
+            margin-bottom: 18px;
+        }
+
+        .small-space {
+            margin-bottom: 10px;
+        }
+
+
+        .form {
+            line-height: 1.5em;
+            height: 100%;
+            display: grid;
+            align-content: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .form__title {
+            font-size: 30px;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+
+        .form__subtitle {
+            font-size: 16px;
+            color: var(--text-grey);
+            font-weight: 400;
+        }
+        
+        .form__wrapper {
+            position: relative;
+            width: 364px;
+            margin-bottom: 18px;
+        }
+
+        .form__icon {
+            position: absolute;
+            left: 21px;
+            top: 50%;
+            transform: translate(0, -50%);
+        }
+
+        .form__input {
+            display: block;
+            width: 100%;
+            height: 52px;
+            border-radius: 16px;
+            border: none;
+            background: var(--input-bg);
+            padding: 8px 8px 8px 48px;
+            font-size: 12px;
+            font-family: 'Poppins';
+        }
+
+        .form__input::placeholder {
+            color: var(--text-dark)
+        }
+
+        .form__submit {
+            background: var(--gradient-start);
+            background: linear-gradient(90deg, var(--gradient-start) 0%, var(--gradient-end) 100%);
+            display: flex;
+            width: 124px;
+            justify-self: center;
+            height: 52px;
+            align-items: center;
+            justify-content: center;
+            border-radius: 16px;
+            border: none;
+            color: var(--white);
+            font-family: Poppins;
+            font-size: 12px;
+            font-weight: 700;
+            line-height: 18px;
+            box-shadow: 0px 8px 21px var(--shadow-color);
+        }
+
+        .form__others-title {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            column-gap: 5px;
+        }
+
+        .form__others-title::before, .form__others-title::after {
+            content: '';
+            height: 1px;
+            background: var(--border-color);
+            flex-grow: 1;
+        }
+
+        .form__login-option {
+            height: 52px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            column-gap: 6px;
+            justify-content: center;
+            border-radius: 16px;
+            border: 1px solid var(--border-color);
+            font-size: 12px;
+            color: var(--text-dark);
+            text-decoration: none;
+        }
+
+        .form__login-option img {
+            width: 30px;
+            height: 30px;
+        }
+
+        .illustration {
+            background-size: cover;
+            background: var(--gradient-end);
+            background: linear-gradient(45deg, var(--gradient-end) 0%, var(--gradient-start) 100%);
+            padding: 55px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        .illustration::before {
+            content: '';
+            position: absolute;
+            inset: 0 0;
+            background-image: url(./bg.png);
+            background-size: cover;
+            z-index: 0;
+            opacity: 0.06;
+        }
+
+        .illustration > * {
+            z-index: 2;
+        }
+
+        .illustration__wrapper {
+            width: 100%;
+            overflow: visible;
+            background: rgb(255 255 255 / 21%);
+            height: 524px;
+            border-radius: 46px;
+            border: 1px solid rgb(255 255 255 / 52%);
+            position: relative;
+            backdrop-filter: blur(4px);
+            width: 412px;
+        }
+    
+
+        .illustration__title {
+            color: var(--white);
+            font-size: 32px;
+            max-width: 183px;
+            position: absolute;
+            top: 25px;
+            left: 25px;
+            font-weight: 700;
+        }
+
+        .illustration__woman {
+            position: absolute;
+            bottom: 0;
+            right: -110px;
+            max-height: 524px;
+        }
+
+        .illustration__icon {
+            position: absolute;
+            left: 0;
+            right: 0;
+            height: 48px;
+            width: 48px;
+            bottom: 98px;
+            transform: translate(-50%, 0%);
+            padding: 16px;
+            background: var(--white);
+            border-radius: 50%;
+            box-sizing: content-box;
+        }
+
+    </style>
+    
+
+</head>
+
+<body>
+    
+    <div class="container">
+
+
+        <form class="form" action="./">
+
+            <h3 class="form__title small-space">Login</h3>
+            <p class="form__subtitle large-space"> How to i get started lorem ipsum dolor at? </p>
+    
+
+            <p class="form__wrapper medium-space">
+                <img class="form__icon" src="./user.svg" role="presentation"/>
+                <input class="form__input" type="text" placeholder="Username"/>
+            </p>
+
+            
+            <p class="form__wrapper large-space">
+                <img class="form__icon" src="./password.svg" role="presentation"/>
+                <input class="form__input" type="password" placeholder="Password"/>
+            </p>
+
+            <button type="submit" class="form__submit large-space">Login Now</button>
+
+
+            <p class="form__others-title large-space"><b>Login</b> With Others</p>
+
+            <a class="form__login-option medium-space" href="#">
+                <img src="./ggl.png" role="presentation">
+                <span>Login With <b>google</b></span>
+            </a>
+
+            <a class="form__login-option" href="#">
+                <img src="fb.png" role="presentation">
+                <span>Login With <b>Facebook</b></span>
+            </a>
+
+
+        </form>
+
+        <section class="illustration">
+            
+            <div class="illustration__wrapper">
+                <h3 class="illustration__title">Very good works are waiting for you Login Now!!!</h3>
+                <img class="illustration__woman" src="./woman-with-tab.png" alt="woman holding tablet">
+                <img class="illustration__icon" src="./thunder.png" role="presentation">
+            </div>
+
+        </section>
+
+
+    </div>
+
+</body>
+</html>
