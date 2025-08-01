@@ -20,8 +20,7 @@ welcome to my space and see the variety and diversity of things I do
 
 #### My Stats
 
-[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=moustafa-brahimi&theme=dark&background=000000)](https://git.io/streak-stats)
-
+[![GitHub Streak](https://streak-stats.demolab.com/?user=moustafa-brahimi)](https://git.io/streak-stats)
 -------------
 
 #### My Techs
