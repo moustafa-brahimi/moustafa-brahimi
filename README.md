@@ -20,18 +20,18 @@ welcome to my space and see the variety and diversity of things I do
 
 #### My Stats
 
-[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=brahimi-mustapha&theme=dark&background=000000)](https://git.io/streak-stats)
+[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=moustafa-brahimi&theme=dark&background=000000)](https://git.io/streak-stats)
 
 -------------
 
 #### My Techs
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=brahimi-mustapha&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=moustafa-brahimi&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
 
 
 
 <!--
-**brahimi-mustapha/brahimi-mustapha** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**moustafa-brahimi/moustafa-brahimi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
 
