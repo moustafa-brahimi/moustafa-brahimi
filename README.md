@@ -18,11 +18,6 @@ welcome to my space and see the variety and diversity of things I do
 
 ------------
 
-#### My Stats
-
-[![GitHub Streak](https://streak-stats.demolab.com/?user=moustafa-brahimi)](https://git.io/streak-stats)
--------------
-
 #### My Techs
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=moustafa-brahimi&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
