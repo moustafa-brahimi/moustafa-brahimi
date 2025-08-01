@@ -2,7 +2,7 @@
 ✨ I'm a full-stack wordpress developer, I'm enthusiastic, energetic and slightly insane 
 welcome to my space and see the variety and diversity of things I do
 
-[My porfolio](https://www.usuual.com/)
+[My porfolio](https://www.usuual.com/founder)
 
 <div id="badges" align="center">
   <a href="https://www.linkedin.com/in/1brahimi" target="_blank">
