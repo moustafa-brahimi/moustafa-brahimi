@@ -1,5 +1,5 @@
 ### Moustafa Brahimi
-✨ I'm a full-stack wordpress developer, I'm enthusiastic, energetic and slightly insane 
+✨ I'm a full-stack wordpress developer, I'm enthusiastic, energetic 
 welcome to my space and see the variety and diversity of things I do
 
 [My porfolio](https://www.usuual.com/founder)
